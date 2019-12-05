@@ -31,7 +31,7 @@ public class JsonObject extends Json {
     public Json find(String name) {
         for(JsonPair el: jsonPairs){
             if (name.equals(el.key)){
-                return el.key;
+                //return el.key;
             }
         }
         return null;
